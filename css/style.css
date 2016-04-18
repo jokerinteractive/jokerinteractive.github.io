@@ -1,0 +1,30 @@
+html, body {
+  color: #ea5b13;
+  background: #130c0c;
+}
+
+svg {
+  display: block;
+  position: absolute;
+  width: 30%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+}
+
+.logo {
+  -webkit-animation: pulse 1.6s linear infinite;
+          animation: pulse 1.6s linear infinite;
+}
+
+@-webkit-keyframes pulse {
+ 0%, 24%, 65%, 100% { transform: scale(.98) translate(1.5px, 1px)%; opacity: .9; }
+ 12%, 40% { transform: scale(1) translate(0, 0); opacity: 1; }
+}
+@keyframes pulse {
+ 0%, 24%, 65%, 100% { transform: scale(.98) translate(1.5px, 1px); opacity: .9; }
+ 12%, 40% { transform: scale(1) translate(0, 0); opacity: 1; }
+}
